@@ -21,9 +21,8 @@ public class Solution {
                         water+=rightMax-height[right];
                     }
                     right--;
-                }
             }
-            return water;
         }
-    
+        return water;
+    }    
 }
