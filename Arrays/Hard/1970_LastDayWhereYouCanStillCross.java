@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     int[][] directions = {{1,0},{-1,0},{0,1},{0,-1}};
     public boolean canCross(int row, int col, int[][] cells, int day) {
